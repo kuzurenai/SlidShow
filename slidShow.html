@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/9e72549d4f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bg_pt"> 
+    <div class="title">
+      慶應義塾歴代塾長
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()"><</button>
+      <img src="https://www.waseda.jp/top/assets/uploads/2014/03/hide maro-360x270.jpg">
+      <button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+      <i onclick="play()" class="fa-solid fa-play"></i>
+      <i onclick="stop()" class="fa-solid fa-pause"></i>
+      <i onclick="reset()" class="fa-solid fa-arrow-rotate-left"></i>
+    </div>
+    <script src="js/slidShow.js"></script>
+    </div>
+  </body>
+</html>
